@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap');
+
+
+body {
+font-family: 'Roboto Slab', serif;
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #383B73;
+color: antiquewhite;
+}
+
+button {
+border: 1px solid antiquewhite;
+border-radius: 5px;
+background-color: #383B73;
+color: antiquewhite;
+text-align: center;
+padding: 5px;
+}
+
+input[type="text"] {
+padding: 5px;
+border-radius: 5px;
+border: 1px solid antiquewhite;
+}
+
+#tasks {
+display: flex;
+flex-direction: column;
+margin-top: 20px;
+}
+
+.task-item {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+:checked + label {
+text-decoration: line-through;
+color: grey;
+}
